@@ -23,7 +23,7 @@
 #include <Bcrypt.h>
 #pragma comment(lib, "bcrypt.lib")
 #else
-#include <errno.h>
+#include <cerrno>
 #include <fcntl.h>
 #include <unistd.h>
 #endif
@@ -36,7 +36,7 @@
 #include <sys/syscall.h>
 #endif
 
-#include <stdlib.h>
+#include <cstdlib>
 
 #include "swift/Runtime/Debug.h"
 #include "swift/Runtime/Mutex.h"
