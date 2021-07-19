@@ -20,7 +20,7 @@
 #include "swift/Runtime/Debug.h"
 #include "../SwiftShims/RuntimeShims.h"
 #include <algorithm>
-#include <stdlib.h>
+#include <cstdlib>
 #if defined(__APPLE__)
 #include "swift/Basic/Lazy.h"
 #include <malloc/malloc.h>
