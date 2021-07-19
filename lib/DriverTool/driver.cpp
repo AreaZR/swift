@@ -48,7 +48,7 @@
 #include "llvm/Support/raw_ostream.h"
 
 #include <memory>
-#include <stdlib.h>
+#include <cstdlib>
 
 #if defined(_WIN32)
 #include <windows.h>
