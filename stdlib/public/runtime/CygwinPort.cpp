@@ -17,9 +17,9 @@
 #if (defined(_WIN32) || defined(__CYGWIN__)) && !defined(_MSC_VER)
 #include "Private.h"
 #include "swift/Runtime/Debug.h"
-#include <stdint.h>
-#include <stdlib.h>
-#include <string.h>
+#include <cstdint>
+#include <cstdlib>
+#include <cstring>
 #include <mutex>
 #include <vector>
 
