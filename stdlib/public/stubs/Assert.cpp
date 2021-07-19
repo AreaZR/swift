@@ -16,9 +16,9 @@
 #include "../SwiftShims/AssertionReporting.h"
 #include <cstdarg>
 #include <cstdint>
-#include <stdio.h>
-#include <stdlib.h>
-#include <inttypes.h>
+#include <cstdio>
+#include <cstdlib>
+#include <cinttypes>
 
 using namespace swift;
 
