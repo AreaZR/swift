@@ -21,7 +21,7 @@
 #include "swift/Runtime/Metadata.h"
 #include "swift/Runtime/Debug.h"
 #include "swift/Runtime/EnvironmentVariables.h"
-#include <stdlib.h>
+#include <cstdlib>
 
 namespace swift {
 // FIXME(ABI)#76 : does this declaration need SWIFT_RUNTIME_STDLIB_API?
