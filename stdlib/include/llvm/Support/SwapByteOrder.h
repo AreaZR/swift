@@ -18,7 +18,7 @@
 #include <cstdint>
 #include <type_traits>
 #if defined(_MSC_VER) && !defined(_DEBUG)
-#include <stdlib.h>
+#include <cstdlib>
 #endif
 
 #if defined(__linux__) || defined(__GNU__) || defined(__HAIKU__) || defined(__wasi__)
