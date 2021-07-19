@@ -19,7 +19,7 @@
 
 #include "../SwiftShims/Visibility.h"
 #include <cstdint>
-#include <stdlib.h>
+#include <cstdlib>
 
 namespace swift {
 
