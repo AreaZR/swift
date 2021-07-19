@@ -24,7 +24,7 @@
 #include "MemoryReaderInterface.h"
 #include "SwiftRemoteMirrorTypes.h"
 
-#include <stdlib.h>
+#include <cstdlib>
 
 #ifdef __cplusplus
 extern "C" {
