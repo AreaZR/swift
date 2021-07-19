@@ -30,8 +30,8 @@
 #include "swift/Runtime/Mutex.h"
 
 #include "swift/Runtime/Debug.h"
-#include <errno.h>
-#include <stdlib.h>
+#include <cerrno>
+#include <cstdlib>
 
 using namespace swift;
 
