@@ -17,7 +17,7 @@
 #ifndef SWIFT_ABI_ENUM_H
 #define SWIFT_ABI_ENUM_H
 
-#include <stdlib.h>
+#include <cstdlib>
 
 namespace swift {
 
