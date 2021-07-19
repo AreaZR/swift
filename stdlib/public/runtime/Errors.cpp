@@ -24,17 +24,17 @@
 #include <mutex>
 #endif
 
-#include <inttypes.h>
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <cinttypes>
+#include <cstdint>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
 #if defined(_WIN32)
 #include <io.h>
 #else
 #include <unistd.h>
 #endif
-#include <stdarg.h>
+#include <cstdarg>
 
 #include "ImageInspection.h"
 #include "swift/Runtime/Debug.h"
@@ -61,8 +61,6 @@
 #if defined(__ELF__)
 #include <unwind.h>
 #endif
-
-#include <inttypes.h>
 
 namespace FatalErrorFlags {
 enum: uint32_t {
