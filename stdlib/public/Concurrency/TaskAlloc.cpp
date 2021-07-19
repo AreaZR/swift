@@ -21,7 +21,7 @@
 #include "swift/ABI/Task.h"
 #include "TaskPrivate.h"
 
-#include <stdlib.h>
+#include <cstdlib>
 
 using namespace swift;
 
