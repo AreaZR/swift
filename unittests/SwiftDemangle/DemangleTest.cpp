@@ -10,7 +10,7 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include <stdlib.h>
+#include <cstdlib>
 
 #include "swift/SwiftDemangle/SwiftDemangle.h"
 #include "gtest/gtest.h"
