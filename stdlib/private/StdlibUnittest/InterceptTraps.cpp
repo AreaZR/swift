@@ -12,16 +12,16 @@
 
 // No signals support on WASI yet, see https://github.com/WebAssembly/WASI/issues/166.
 #if !defined(__wasi__)
-#include <stdio.h>
-#include <signal.h>
-#include <string.h>
+#include <cstdio>
+#include <csignal>
+#include <cstring>
 #if defined(__unix__) || (defined(__APPLE__) && defined(__MACH__))
 #include <unistd.h>
 #endif
 #if defined(_WIN32)
 #include <io.h>
 #include <process.h>
-#include <stdlib.h>
+#include <cstdlib>
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
 #endif
